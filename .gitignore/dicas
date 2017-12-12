@@ -12,3 +12,8 @@ print(len(a))
 for x in range(len(a)):
     c.append(a[x])
 print(c,len(c))
+#print(c,len(c))
+
+#testando se elementos são iguais
+print(a[2])
+print(c[2])
