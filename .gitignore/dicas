@@ -1,0 +1,14 @@
+#convertendo series para vetores sem index
+
+import numpy as np
+
+#print(titanic)
+
+a=titanic.pivot_table(index="cabin", values="fare", aggfunc=np.mean)
+#print(titanic.pivot_table(index="cabin", values="fare", aggfunc=np.mean))
+#print(a)
+c=[]
+print(len(a))
+for x in range(len(a)):
+    c.append(a[x])
+print(c,len(c))
